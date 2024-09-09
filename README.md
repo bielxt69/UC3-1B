@@ -74,6 +74,31 @@ switch (jogos){
 } 
 
 
+const musica = ["coisas das vida", "ela gosta de fumar maconha", "só fé"];
+const musicos = ["felipe do pascal", "grelo", "alcione"];
+
+const musicasEcantores = musica.concat(musicos);
+
+console.log(musicasEcantores);
+
+
+const array = [1,2,3]
+console.log(array) // [1,2,3]
+
+array.push(4,5)
+console.log(array) // [1,2,3,4,5]
+
+
+
+String é um termo usado na programação de computadores para se referir a uma sequência de caracteres, ou seja, uma cadeia de caracteres. É uma forma de representar textos, frases ou palavras em um programa.
+
+Array, também conhecido como vetor ou arranjo, é uma estrutura de dados que armazena e organiza uma coleção de elementos do mesmo tipo. 
+ 
+Os arrays são muito utilizados na programação para armazenar e manipular conjuntos de dados, e são comparáveis a uma variável que pode armazenar mais de um valor. 
+
+No JavaScript, o método push() adiciona elementos a um array, sempre no final do mesmo. Ele retorna o novo comprimento do array, que é atualizado após cada chamada do método. 
+ 
+Por exemplo, a linha de código array.push(4) adiciona o número 4 ao final do array, enquanto a linha array.push(5, 6)
 
 
 
