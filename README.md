@@ -100,6 +100,9 @@ No JavaScript, o método push() adiciona elementos a um array, sempre no final d
  
 Por exemplo, a linha de código array.push(4) adiciona o número 4 ao final do array, enquanto a linha array.push(5, 6)
 
+O console.log é uma função do JavaScript que imprime uma mensagem no console do navegador ou no ambiente de desenvolvimento. É uma ferramenta útil para desenvolvedores, pois permite depurar o código e verificar o valor de variáveis ou o estado do programa. 
+
+
 
 
 
