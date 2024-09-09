@@ -41,6 +41,40 @@ console.log(hqs.indexOf("vingadores"));
 console.log(hqs.includes("vingadores"));
  true
 
+ const jogos = prompt ("qual jogo você quer?")
+const bibliotecaDejogos = ["efotbool","souls","ufc24","free fire"]
+
+switch (jogos){
+  case "free fire":
+    console.log("efotbool custa 55,00")
+    break
+    
+    
+}
+switch (jogos){
+  case "souls":
+    console.log("souls custa23,00")
+    break
+    
+}
+switch (jogos){
+  case "ufc4":
+    console.log("ufc24 custa 87,00")
+    break
+    
+    
+}
+switch (jogos){
+  case "free fire":
+  console.log("free fire custa 30,00")
+  break
+  default:
+  console.log("infelizmente não temos esse jogo")
+  
+} 
+
+
+
 
 
 
