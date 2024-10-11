@@ -226,6 +226,7 @@ console.log("A pitaya e a framboesa,custam R$20,00kg.")
 28
      }
 
+     No JavaScript, os operadores lógicos e comparativos são ferramentas que permitem realizar comparações e manipulações de dados, sendo essenciais para o desenvolvimento de aplicações eficientes
      
 
 
@@ -242,7 +243,7 @@ if (x) {
 
 
 
-desenvolvimento de um jogo em Ds
+desenvolvimento de um jogo em Ds:https://codepen.io/Pedro-melo-torres/pen/RwXbbdd
 function mostrarMensagem(tipoDeLuta) {
   switch (tipoDeLuta.toLowerCase()) {
     case "muay thai":
@@ -345,3 +346,13 @@ function listarFeriados() {
 // Chama a função para executar
 listarFeriados();*/
 
+
+ links das atividades a seguir:https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
+ https://codepen.io/zxyyewin-the-encoder/pen/QWXOpOQ
+ https://codepen.io/zxyyewin-the-encoder/pen/PorKjKN
+ https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
+ https://codepen.io/zxyyewin-the-encoder/pen/KKjQOpz
+ https://codepen.io/zxyyewin-the-encoder/pen/VwJgMvv
+ https://codepen.io/zxyyewin-the-encoder/pen/VwJgMvv]
+ https://codepen.io/zxyyewin-the-encoder/pen/NWQrZrj
+ 
