@@ -1,6 +1,6 @@
 # Caderno virtual - Lógica da Programação e Algoritmos
 Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os conceitos aprendidos e atiuvidades dessa unidade curricular. 
-
+Nome: João gabriel cordeiro Matias
 
 ## Conteúdo Técnico
 Escreva aqui os conteúdos aprendidos.
@@ -102,7 +102,86 @@ Por exemplo, a linha de código array.push(4) adiciona o número 4 ao final do a
 
 O console.log é uma função do JavaScript que imprime uma mensagem no console do navegador ou no ambiente de desenvolvimento. É uma ferramenta útil para desenvolvedores, pois permite depurar o código e verificar o valor de variáveis ou o estado do programa. 
 
+No JavaScript, if e else são estruturas condicionais que permitem controlar o fluxo de código, executando comandos de acordo com o resultado de uma condição
+function soma(num1, num2) {
+  return (num1 = +num2);
+}
+if (compra1 > compra2) {
+  console.log(soma(compra1, compra2));
+} else if (compra1 > compra2) {
+  console.log(subtracao(compra1, compra2));
+} else {
+  console.log("erro")
 
+  function somaNumerosPares(numeros) {
+  // Filtra os números pares
+  const numerosPares = numeros.filter((num) => num % 2 === 0);
+
+  // Calcula a soma dos números pares
+  const soma = numerosPares.reduce((acc, num) => acc + num, 0);
+
+  return soma;
+}
+
+// Exemplo de uso
+const arrayDeNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const resultado = somaNumerosPares(arrayDeNumeros);
+console.log(resultado); // Saída: 30
+
+O que são funções
+Funções no JavaScript são blocos de instruções que executam uma tarefa ou calculam um valor. Elas são um componente fundamental da linguagem, permitindo a reutilização, organização e modularização do código.
+
+
+
+
+desenvolvimento de um jogo em Ds
+function mostrarMensagem(tipoDeLuta) {
+  switch (tipoDeLuta.toLowerCase()) {
+    case "muay thai":
+      alert("Muay Thai é conhecido como a arte dos oito membros!");
+      break;
+    case "karatê":
+      alert(
+        "Karatê é uma arte marcial japonesa focada na velocidade e defesa!"
+      );
+      break;
+    case "jiu-jitsu":
+      alert(
+        "Jiu-Jitsu é uma arte marcial que enfatiza o grappling e a defesa pessoal!"
+      );
+      break;
+    case "taekwondo":
+      alert(
+        "Taekwondo é uma arte marcial coreana conhecida por seus chutes altos!"
+      );
+      break;
+    case "boxe":
+      alert("Boxe é um esporte de combate focado em socos e movimentação!");
+      break;
+    case "capoeira":
+      alert(
+        "Capoeira é uma expressão cultural afro-brasileira que combina dança, acrobacias e música!"
+      );
+      break;
+    case "luta de rua":
+      alert(
+        "Luta de Rua é um estilo de combate sem regras específicas, focado na autodefesa!"
+      );
+      break;
+    case "luta livre":
+      alert(
+        "Luta Livre é uma arte marcial brasileira que combina técnicas de grappling e submissão!"
+      );
+      break;
+    default:
+      alert("Tipo de luta não reconhecido. Tente novamente!");
+  }
+}
+
+let tipoDeLuta = prompt(
+  "Qual luta você deseja aprender? (Muay Thai, Karatê, Jiu-Jitsu, Taekwondo, Boxe, Capoeira, Luta de Rua, Luta Livre)"
+);
+mostrarMensagem(tipoDeLuta);
 
 
 
@@ -110,4 +189,51 @@ O console.log é uma função do JavaScript que imprime uma mensagem no console 
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
+function listarFeriados() {
+    let mes = prompt("Digite o número do mês (1-12):");
+
+    switch (mes) {
+        case '1':
+            alert("Janeiro: 1 - Confraternização Universal");
+            break;
+        case '2':
+            alert("Fevereiro: 25 - Carnaval (data variável), 26 - Carnaval (data variável)");
+            break;
+        case '3':
+            alert("Março: 31 - Páscoa (data variável)");
+            break;
+        case '4':
+            alert("Abril: 21 - Tiradentes");
+            break;
+        case '5':
+            alert("Maio: 1 - Dia do Trabalho");
+            break;
+        case '6':
+            alert("Junho: 15 - Corpus Christi (data variável)");
+            break;
+        case '7':
+            alert("Julho: Não há feriados nacionais.");
+            break;
+        case '8':
+            alert("Agosto: Não há feriados nacionais.");
+            break;
+        case '9':
+            alert("Setembro: 7 - Independência do Brasil");
+            break;
+        case '10':
+            alert("Outubro: 12 - Nossa Senhora Aparecida");
+            break;
+        case '11':
+            alert("Novembro: 1 - Dia de Todos os Santos, 2 - Finados, 15 - Proclamação da República");
+            break;
+        case '12':
+            alert("Dezembro: 25 - Natal");
+            break;
+        default:
+            alert("Mês inválido! Por favor, digite um número de 1 a 12.");
+    }
+}
+
+// Chama a função para executar
+listarFeriados();*/
 
