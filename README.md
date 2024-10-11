@@ -346,6 +346,8 @@ function listarFeriados() {
 // Chama a função para executar
 listarFeriados();*/
 
+javaScript (JS) é uma linguagem de programação que permite criar páginas interativas na web, melhorando a experiência do usuário:
+
 
  links das atividades a seguir:https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
  https://codepen.io/zxyyewin-the-encoder/pen/QWXOpOQ
