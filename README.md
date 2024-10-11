@@ -349,7 +349,7 @@ listarFeriados();*/
 javaScript (JS) é uma linguagem de programação que permite criar páginas interativas na web, melhorando a experiência do usuário:
 
 
- links das atividades a seguir:https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
+ links das atividades a seguir do codepen :https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
  https://codepen.io/zxyyewin-the-encoder/pen/QWXOpOQ
  https://codepen.io/zxyyewin-the-encoder/pen/PorKjKN
  https://codepen.io/zxyyewin-the-encoder/pen/zYVpjWM
