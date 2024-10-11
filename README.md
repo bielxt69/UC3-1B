@@ -130,6 +130,114 @@ console.log(resultado); // Saída: 30
 
 O que são funções
 Funções no JavaScript são blocos de instruções que executam uma tarefa ou calculam um valor. Elas são um componente fundamental da linguagem, permitindo a reutilização, organização e modularização do código.
+function minhaFuncao(objeto) {
+  objeto.make = "Toyota";
+}
+
+var meucarro = { make: "Honda", model: "Accord", year: 1998 };
+var x, y;
+
+x = meucarro.make; // x recebe o valor "Honda"
+
+minhaFuncao(meucarro);
+y = meucarro.make; // y recebe o valor "Toyota"
+// (a propriedade make foi alterada pela função)
+
+No JavaScript, um array é uma estrutura de dados que armazena e organiza valores, sendo um conjunto de dados ordenados que pode ser referenciado por um nome e um índice:
+
+
+const array = [1,2,3]
+console.log(array) // [1,2,3]
+
+array.push(4,5)
+console.log(array) // [1,2,3,4,5]
+
+No JavaScript, o tipo de dado Number representa números, tanto inteiros quanto de ponto flutuante, e pode ser usado em operações matemáticas
+const a = 15;
+const b = 16;
+const calcular = a * b;
+console.log(`o resultado é ${calcular}`);
+const nome = prompt("qual é o seu nome?");
+console.log(`boas vindas, amostradinho(a),${nome}.`);
+const nome = promtp(`qual é o seu nome?`);
+if (nome == "joao") {
+  console.log(`boas vindas, amostradinho ${nome}`);
+} else {
+  console.log(`que pena ${nome}, você não esta no sistema`);
+}
+console.log(2 === "2");
+
+switch case é uma instrução de controle de fluxo do JavaScript que permite executar diferentes blocos de código com base em valores específicos. É uma ferramenta útil para programadores JavaScript, pois permite lidar com várias condições de forma eficiente e evitar o uso excessivo de estruturas condicionais aninhadas
+JS Options
+1
+const produto = prompt("qual fruta vocẽ deseja?")
+2
+ switch(produto) {
+3
+  
+4
+  case :"maça"
+5
+console.log("A maça custa R$2,50 a unidade.")
+6
+break;
+7
+case:"pitaya":
+8
+case:"framboesa"
+9
+console.log("A pitaya e a framboesa,custam R$20,00kg.")    
+10
+    break;
+11
+  default:
+12
+    console.log("")
+13
+     break;
+14
+     case:"banana":
+15
+     console.log("a banana custa R$4,00,cada palma.")
+16
+     break;
+17
+     defalt:
+18
+     console.log("infelizmente não temos essa fruta disponivel.")
+19
+ }
+20
+     
+21
+     const produto = prompt("qual jogo vocẽ deseja?")
+22
+     switch(produto)   {
+23
+    case:"efotbool"
+24
+    console.log("o efotboll custa R$7,00") 
+25
+    break;
+26
+    case:"efotbool"
+27
+    console.log("o jogo está em falta.")
+28
+     }
+
+     
+
+
+
+
+No JavaScript, booleano é um tipo de dado primitivo que pode assumir apenas dois valores: verdadeiro (true) ou falso (false). 
+var x = new Boolean(false);
+if (x) {
+  // esse código é executado
+}
+
+
 
 
 
